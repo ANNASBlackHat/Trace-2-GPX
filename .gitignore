@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Production build outputs
+dist/
+build/
+
+# Environment variables & secrets
+.env*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test & benchmark generation artifacts
+coverage/
+*.bin
+.examples/*.bin
+.examples/*_overlay_*.png
+.examples/*_comparison.png
+.examples/*_result.json
+.examples/*_candidate.json
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+*.swo
